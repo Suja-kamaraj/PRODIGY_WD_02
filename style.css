@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: skyblue;
+}
+
+#stopwatch{
+    text-align: center;
+    margin: 15px 0 30px 0;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.digit{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.txt{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.btn{
+    margin: 40px 0 ;
+}
+
+.btn{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    padding: 10px 25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#start{
+    background-color: darkgreen;
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color: blue;
+}
+
+#lap{
+    background-color: darkslategrey;
+}
+
+#laps{
+    background-color:white;
+    color:black;
+    text-align: center;
+    margin: 20px 40% ;
+    padding: 20px 10px;
+    list-style-type: none;
+    font-size: 20px;
+    border: 5px solid white;
+}
+
+#foot{
+    background-color: #222;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
