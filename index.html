@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>SK Stopwatch</title>
+</head>
+<body>
+
+                             <!--Header-->
+    <header id="heading">
+        <h1 id="stopwatch">Stopwatch</h1>
+    </header>
+
+                             <!--Stopwatch-->
+    <main id="container">
+        <section id="timer"> 
+                <span class="digit" id="hr">
+                    00
+                </span>
+                <span class="txt">
+                    Hr
+                </span>
+                
+                <span class="digit" id="min">
+                    00
+                </span> 
+                <span class="txt">
+                    Min
+                </span>
+
+                <span class="digit" id="sec">
+                    00
+                </span>  
+                <span class="txt">
+                    Sec
+                </span>
+
+                <span class="digit" id="millisec">
+                    00
+                </span> 
+                <span class="txt">
+                    Millisec
+                </span>
+        </section>
+
+        <section id="btns">
+            <button class="btn" id="start">
+                Start
+            </button
+            ><button class="btn" id="stop">
+                Stop
+            </button>
+            <button class="btn" id="reset">
+                Reset
+            </button>
+            <button id="lap" class="btn">
+                Lap
+            </button>
+        </section>
+
+    </main>
+                                    <!--Laps-->
+    <section id="lapsec">
+        <ul id="laps"> <strong>LAPS</strong> <br><br> </ul>
+    </section>
+                                    <!--Footer-->
+    <footer id="foot">
+        Designed and Developed by Suja K
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+    
+</html>
